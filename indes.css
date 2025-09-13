@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#text{
+    color: white;
+    font-size: 30px;
+}
+
+#text:hover{
+    color: orange;
+}
+
+#clock{
+    height: 70px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    color: white;
+}
+
+#clock:hover{
+    color: rgb(45, 43, 43);
+}
